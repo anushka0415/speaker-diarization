@@ -66,7 +66,7 @@ nvidia-nccl-cu12==2.20.5
 nvidia-nvjitlink-cu12==12.6.85
 nvidia-nvtx-cu12==12.1.105
 omegaconf==2.3.0
-openai-whisper @ git+https://github.com/openai/whisper.git@90db0de1896c23cbfaf0c58bc2d30665f709f170
+git+https://github.com/openai/whisper.git@latest
 optuna==4.1.0
 packaging==24.2
 pandas==2.0.3
