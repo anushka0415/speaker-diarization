@@ -59,7 +59,7 @@ curl -X POST -F "file=@/path/to/audio/file.wav" http://127.0.0.1:8000/api/diariz
 ```
 - Replace `/path/to/audio/file.wav` with the actual path to the audio file you want to test.
 - Expected Response:
-     - The response will be a JSON file containing the speaker diarization results.
+     - The response will be a JSON file containing the speaker diarization results in `transcripts` folder.
 
  
 
