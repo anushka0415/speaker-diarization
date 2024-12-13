@@ -24,6 +24,12 @@ This project sets up a speaker diarization API using **Django** and **pyannote.a
 
 ### Setting Up Conda Environment
 
+ 1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/anushka0415/speaker-diarization
+   cd speaker-diarization
+   ```
+
 1. **Create the Conda Environment**:
    - Ensure the `environment.yml` file is in the root folder (same level as `manage.py`).
    - Run the following command to create the environment:
