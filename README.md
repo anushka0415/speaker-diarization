@@ -40,13 +40,28 @@ This project sets up a speaker diarization API using **Django** and **pyannote.a
 ## Running the Django Application
 ### Start the Django Development Server:
 
-  -Once the environment is set up, start the server with:
+  - Once the environment is set up, start the server with:
 ```bash
 python manage.py runserver
 
 ```
 
- -The server will start at http://127.0.0.1:8000/.
+ - The server will start at `http://127.0.0.1:8000/`.
+ - You should see the Django app running locally.
+
+## Testing the Diarization API
+### Using curl for Testing
+- Test the API Endpoint:
+
+- To test the speaker diarization API, send a POST request with an audio file using `curl`:
+```bash
+curl -X POST -F "file=@/path/to/audio/file.wav" http://127.0.0.1:8000/api/diarize/
+```
+- Replace `/path/to/audio/file.wav` with the actual path to the audio file you want to test.
+- Expected Response:
+     - The response will be a JSON file containing the speaker diarization results.
+
+ 
 
 
 
