@@ -3,6 +3,7 @@
     "builds": [
       {
         "src": "manage.py",
+        "python_version": "3.9",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb" }
       }
