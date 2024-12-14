@@ -26,7 +26,7 @@ This project sets up a speaker diarization API using **Django** and **pyannote.a
 
  1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/anushka0415/speaker-diarization
+   git clone https://github.com/anushka0415/speaker-diarization -b master
    cd speaker-diarization
    ```
 
